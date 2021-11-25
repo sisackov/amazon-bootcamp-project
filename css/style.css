@@ -271,3 +271,84 @@ p {
     width: 38px;
     height: 26px;
 }
+
+.nav-line-1-container {
+    position: relative;
+    width: 100%;
+    height: 14px;
+    margin-top: 9px;
+}
+
+.nav-tools {
+    width: 450px;
+}
+
+.nav-tools > div {
+    margin-right: 20px;
+}
+
+.nav-cart-icon {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    top: 11px;
+
+    background-position: -10px -340px;
+    width: 38px;
+    height: 26px;
+}
+
+/* !TODO */
+.nav-cart-icon {
+    width: 41px;
+    height: 28px;
+    background-position: -218px -337px;
+}
+
+.nav-sprite,
+.nav-icon {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    background-position: 0 1000px;
+    background-repeat: repeat-x;
+}
+
+/* .nav-main {
+    background-image: none;
+    background-color: #232f3e;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: #232f3e;
+    color: white;
+    z-index: 1;
+    padding: 1rem;
+}
+
+.navbar__left-list,
+.navbar__side-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__left-list a,
+.navbar__side-list a {
+    color: var(--primary-color);
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+.navbar__side-list a:hover {
+    border-radius: 5px;
+    animation: btn-blink 1s step-end infinite;
+}
