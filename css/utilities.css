@@ -1,0 +1,111 @@
+/* Tags */
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0.75rem 0;
+}
+hr {
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 0;
+    border-top: 1px solid #e7e7e7;
+    line-height: 19px;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table {
+    margin-bottom: 18px;
+    border-collapse: collapse;
+    width: 100%;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+/* spacing */
+
+.a-icon {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.a-icon.a-star-4-5 {
+    background-position: -84px -28px;
+}
+
+.a-icon-star {
+    height: 18px;
+    width: 80px;
+    position: relative;
+    vertical-align: text-top;
+}
+
+.a-icon-popover {
+    margin: 5px 0 0 0.385em;
+    vertical-align: text-top;
+    width: 7px;
+    height: 5px;
+    background-position: -90px -5px;
+    opacity: 0.6;
+}
+
+.a--base {
+    color: #007185;
+    cursor: pointer;
+}
+
+.a-size-base {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.a-spacing-micro {
+    margin-bottom: 4px;
+}
+
+.a-spacing-small {
+    margin-bottom: 8px;
+}
+
+td.a-span3,
+th.a-span3 {
+    width: 26.18%;
+    float: none;
+}
+
+td.a-span9,
+th.a-span9 {
+    width: 78.68%;
+    float: none !important;
+}
+
+.a-text-bold {
+    font-weight: 700;
+}
+
+.a-unordered-list {
+    display: block;
+    margin: 0 0 0 18px;
+    color: #0f1111;
+}
+
+.a-unordered-list li,
+ol li,
+ul li {
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.a-unordered-list li::marker {
+    font-variant-numeric: tabular-nums;
+    font-size: 1.3em;
+}

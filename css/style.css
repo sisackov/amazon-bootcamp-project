@@ -23,14 +23,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
-p {
-    margin: 0.75rem 0;
-}
-
 /* Navbar */
 .navbar-container {
     min-width: 1000px;
@@ -392,7 +384,7 @@ p {
     margin-left: 300px;
 }
 
-.product-description__title {
+.pd__title {
     font-weight: 400;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -406,7 +398,7 @@ p {
     margin-bottom: 0 !important;
     padding-bottom: 0;
 }
-.product-description__byline {
+.pd__byline {
     text-decoration: none;
     color: #007185;
 }
@@ -419,11 +411,6 @@ p {
     width: auto;
 }
 
-.a-icon {
-    display: inline-block;
-    vertical-align: top;
-}
-
 .a-icon.a-icon-star {
     background-image: url(https://m.media-amazon.com/images/S/sash/3-fm1Jbg4IHlyhq.png);
     -webkit-background-size: 512px 256px;
@@ -431,41 +418,18 @@ p {
     background-repeat: no-repeat;
 }
 
-.a-icon.a-star-4-5 {
-    background-position: -84px -28px;
-}
-
-.a-icon-star {
-    height: 18px;
-    width: 80px;
-    position: relative;
-    vertical-align: text-top;
-}
-
-.a-icon-popover {
-    margin: 5px 0 0 0.385em;
-    vertical-align: text-top;
-    width: 7px;
-    height: 5px;
-    background-position: -90px -5px;
-    opacity: 0.6;
-}
-
-.a--base {
-    color: #007185;
-}
-
 .askPipe {
     color: #666;
     padding: 0 5px 0 5px;
 }
 
-.ac-badge-wrapper {
+/* amazon choice */
+.ac-container {
     margin: 5px 0 10px;
     display: flex;
 }
 
-.ac-badge-rectangle {
+.ac-container--rectangle {
     height: 22px;
     background-color: #232f3e;
     border-color: #232f3e;
@@ -474,7 +438,7 @@ p {
     float: left;
 }
 
-.ac-badge-triangle {
+.ac-container--triangle {
     width: 0;
     height: 0;
     border-right: 10px solid transparent;
@@ -488,7 +452,7 @@ p {
     line-height: 16px;
 }
 
-.ac-badge-text-primary {
+.ac-container--text-primary {
     color: #fff;
     line-height: 22px;
     margin-left: 8px;
@@ -496,7 +460,7 @@ p {
     font-family: 'Amazon Ember', Arial;
 }
 
-.ac-badge-text-secondary {
+.ac-container--text-secondary {
     color: #f69931;
     line-height: 22px;
     margin-right: 8px;
@@ -510,9 +474,25 @@ p {
     line-height: 22px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
+
 .ac-keyword-link {
     color: #0066c0;
     font-size: 12px;
+}
+
+.pd__price--text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #b12704;
+}
+
+.a-color-secondary {
+    color: #565959;
+}
+
+.pd__features-title {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 4px;
 }
