@@ -60,7 +60,6 @@ p {
 
 .nav-top__logo .nav-logo-base {
     margin-top: 12px;
-    pointer-events: none;
     float: left;
     text-indent: -500px;
     background-position: -10px -51px;
@@ -351,4 +350,31 @@ p {
 .navbar__side-list a:hover {
     border-radius: 5px;
     animation: btn-blink 1s step-end infinite;
+}
+
+/* Main */
+.center-section {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.product-showcase {
+    display: flex;
+    justify-content: space-between;
+    max-width: 460px;
+    max-height: 460px;
+    height: 260px;
+    width: 260px;
+}
+
+.product-showcase ul {
+    list-style: none;
+}
+
+.center-section .product-showcase__image {
+    height: 259px; /* TODO ugly */
+    width: 260px;
+    max-width: 460px;
+    max-height: 460px;
 }
