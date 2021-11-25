@@ -459,3 +459,60 @@ p {
     color: #666;
     padding: 0 5px 0 5px;
 }
+
+.ac-badge-wrapper {
+    margin: 5px 0 10px;
+    display: flex;
+}
+
+.ac-badge-rectangle {
+    height: 22px;
+    background-color: #232f3e;
+    border-color: #232f3e;
+    display: flex;
+    min-width: 80px;
+    float: left;
+}
+
+.ac-badge-triangle {
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 22px solid;
+    color: #232f3e;
+    float: left;
+}
+
+.a-size-small {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.ac-badge-text-primary {
+    color: #fff;
+    line-height: 22px;
+    margin-left: 8px;
+    margin-right: 3px;
+    font-family: 'Amazon Ember', Arial;
+}
+
+.ac-badge-text-secondary {
+    color: #f69931;
+    line-height: 22px;
+    margin-right: 8px;
+    font-family: 'Amazon Ember', Arial;
+}
+
+.ac-for-text {
+    color: #111;
+    display: inline;
+    margin-left: 5px;
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ac-keyword-link {
+    color: #0066c0;
+    font-size: 12px;
+}
