@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+:root {
+    --page-size: 100vh;
+    --color-bluebeacon: #232f3e;
+    --color-nav-top: #131921;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-size: 1.1rem;
+    background: #f4f4f4;
+    color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+/* Navbar */
+.navbar-container {
+    min-width: 1000px;
+}
+
+.nav-top {
+    color: white;
+    background: var(--color-nav-top);
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60px;
+    width: 100%;
+    font-size: 14px;
+    z-index: 5;
+}
+
+.nav-flex {
+    display: flex;
+    position: static;
+    float: none;
+}
+
+.nav-top__logo {
+    line-height: 0;
+    margin-left: 15px;
+}
+
+.nav-top__logo .nav-logo-base {
+    margin-top: 12px;
+    pointer-events: none;
+    float: left;
+    text-indent: -500px;
+    background-position: -10px -51px;
+    width: 97px;
+    height: 30px;
+}
+
+.nav-geolocation {
+    margin-left: 6px;
+    width: auto;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav__geolocation--wrapper {
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+    width: fit-content;
+    height: auto;
+    box-shadow: none;
+    scroll-margin: 0;
+    line-height: 39px;
+    color: #d6d6d6;
+}
+
+.nav__geolocation--wrapper .nav__geolocation--icon {
+    background-position: -71px -378px;
+    width: 15px;
+    height: 18px;
+    margin-top: 8px;
+}
+
+.nav__geolocation--wrapper .nav__geolocation--text {
+    margin-left: 3px;
+    display: flex;
+    position: static;
+    float: none;
+    flex-flow: column nowrap;
+}
+
+.nav__geolocation--wrapper .nav__geolocation--text .nav-line-1 {
+    margin-top: 0;
+    padding-right: 0;
+}
+
+.nav-line-1 {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+}
+
+.nav-line-2 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.nav-fill {
+    height: 60px;
+    flex: 1 1 auto;
+    overflow: visible;
+    margin: 0 10px;
+    padding: 10px 4px 10px 3px;
+}
+
+.nav-fill .nav-search__form {
+    border: none;
+}
+
+.nav-fill .nav-search__form--dropdown {
+    display: flex;
+    position: relative;
+    float: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f3f3f3;
+    background-image: none;
+    border-left: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    height: 40px;
+    width: 160px; /* !not sure how to remove */
+    margin: 0;
+    padding-left: 5px;
+    overflow: hidden;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px 0 0 4px;
+    background-position: 0 -532px;
+}
+
+.nav-search-label {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #555;
+    font-size: 12px;
+    line-height: 33px;
+    margin-right: 21px;
+    margin-left: 5px;
+    min-width: 19px;
+}
+
+.nav-search-label__icon {
+    position: absolute;
+    top: 14px;
+    right: 8px;
+    border-style: solid;
+    _border-style: dashed;
+    border-width: 4px;
+    border-color: transparent;
+    border-top: 4px solid #666;
+    border-bottom-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.nav-search__form--input {
+    width: 100%;
+}
+
+.nav-search .nav-search__form--submit {
+    min-width: auto;
+    background-color: #febd69;
+    background-image: none;
+    border: none;
+    width: 65px;
+
+    position: relative;
+    right: 0;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    background-position: 0 -381px;
+}
+.nav-search .nav-search__form--submit-text {
+    flex: 1 1 auto;
+    width: auto;
+    height: auto;
+    background-position: 2px -280px;
+    top: 10px;
+    left: 12px;
+    color: #111;
+    text-shadow: none;
+}
+
+.nav-tools {
+    text-decoration: none;
+    margin-top: 2px;
+    padding: 3px 0 0 0;
+}
+
+.nav-language-selector {
+}
+
+.nav-language-selector .nav-sprite-flags {
+    width: 24px;
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 3px;
+    background-position: 0 -130px;
+    background-image: url('/img/nav-sprite-flags.png');
+}
+
+.nav-language-selector .nav-arrow {
+    margin: 20px 0 0 2px;
+    border-top-color: #a7acb2;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+    border-top: 4px solid #606060;
+    border-bottom-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.nav-cart {
+    display: flex;
+    float: none;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png);
+    background-position: 0 1000px;
+    background-repeat: repeat-x;
+}
+
+.nav-cart__icon {
+    background-position: -10px -340px;
+    width: 38px;
+    height: 26px;
+}
