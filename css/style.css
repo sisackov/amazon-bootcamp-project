@@ -539,3 +539,39 @@ body {
     border-radius: 8px;
     width: fit-content;
 }
+
+.pcs__button {
+    height: 29px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 19px;
+    box-shadow: none;
+}
+
+.pcs__button-add .pcs__button {
+    background: #ffd814;
+    border-color: #fcd200;
+}
+
+.pcs__button-buy .pcs__button {
+    background: #ffa41c;
+    border-color: #ff8f00;
+}
+
+.pcs__secure--img {
+    margin-top: 5px;
+    margin-right: 8px;
+    height: 15px;
+}
+
+.pcs__shipping-table {
+    font-size: 12px;
+}
+
+.pcs__shipping-table .table--label {
+    width: 30%;
+    color: #565959;
+}
+.pcs__shipping-table .table--text {
+    width: 50%;
+}

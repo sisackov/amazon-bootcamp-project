@@ -76,16 +76,16 @@ tr {
     margin-bottom: 8px;
 }
 
-td.a-span3,
-th.a-span3 {
+td.table--label,
+th.table--label {
     width: 26.18%;
     float: none;
 }
 
-td.a-span9,
-th.a-span9 {
+td.table--text,
+th.table--text {
     width: 78.68%;
-    float: none !important;
+    float: none;
 }
 
 .a-text-bold {
