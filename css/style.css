@@ -381,7 +381,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
 
-    margin-left: 300px;
+    margin: 40px 300px; /* TODO ugly */
+    margin-right: 600px;
 }
 
 .pd__title {
@@ -495,4 +496,46 @@ body {
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 4px;
+}
+
+.product-side-cart {
+    border: 1px #d5d9d9 solid;
+    border-radius: 8px;
+    padding: 14px 18px;
+}
+
+.product-side-cart > div {
+    margin-bottom: 8px;
+}
+
+.psc__shipping {
+    margin-bottom: 22px;
+}
+
+.psc__shipping--text {
+    margin-bottom: 12px;
+}
+
+.psc__shipping--geolocation {
+    min-width: 16px;
+    height: 14px;
+    float: left;
+    background-image: url(https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.psc__stock {
+    font-size: 18px;
+    line-height: 24px;
+    color: #007600;
+}
+
+.psc__qty {
+    border: 1px #d5d9d9 solid;
+    border-radius: 8px;
+    width: fit-content;
 }

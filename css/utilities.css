@@ -109,3 +109,8 @@ ul li {
     font-variant-numeric: tabular-nums;
     font-size: 1.3em;
 }
+
+.a-size--small {
+    font-size: 12px;
+    line-height: 1.5;
+}
