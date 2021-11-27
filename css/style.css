@@ -226,7 +226,7 @@ body {
     margin-left: 15px;
     margin-right: 3px;
     background-position: 0 -130px;
-    background-image: url('/img/nav-sprite-flags.png');
+    background-image: url(https://m.media-amazon.com/images/S/sash/rzrQQdi0aRm6Dap.png);
 }
 
 .nav-language-selector .nav-arrow {
@@ -348,13 +348,6 @@ body {
     border-color: white;
 }
 
-/**
-
-
-
-
-*/
-
 #nav-cart {
     display: flex;
     flex-direction: row;
@@ -420,12 +413,17 @@ body {
     font-weight: 700;
 }
 
-/**
+.promo-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
 
-
-
-
-*/
+.promo-section img {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/November/CyberMonday/CyberMondayILM/Fuji_CM_ILM_en_1X._CB651321808_.jpg);
+    height: 45px;
+    width: 650px;
+}
 
 /* Main */
 .hero-section {
