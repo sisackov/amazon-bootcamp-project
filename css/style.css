@@ -575,3 +575,8 @@ body {
 .pcs__shipping-table .table--text {
     width: 50%;
 }
+
+.pcs__add-button {
+    border: 1px solid #0f1111;
+    border-radius: 3px;
+}
