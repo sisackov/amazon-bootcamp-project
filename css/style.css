@@ -304,11 +304,6 @@ body {
     background-repeat: repeat-x;
 }
 
-/* .nav-main {
-    background-image: none;
-    background-color: #232f3e;
-} */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -423,6 +418,22 @@ body {
     background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/November/CyberMonday/CyberMondayILM/Fuji_CM_ILM_en_1X._CB651321808_.jpg);
     height: 45px;
     width: 650px;
+}
+
+/* .page-container #breadcrumb {
+    
+} */
+
+#breadcrumb--link {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #565959;
+    cursor: pointer;
+}
+
+#breadcrumb--link:hover {
+    text-decoration: underline;
 }
 
 /* Main */
