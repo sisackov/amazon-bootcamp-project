@@ -151,3 +151,110 @@ ul li {
     padding: 0 10px 0 11px;
     color: #0f1111;
 }
+
+.a-icon-previous {
+    margin: 5px 6px 5px 5px;
+    width: 11px;
+    height: 15px;
+    background-position: -123px -7px;
+}
+
+.a-icon-next {
+    margin: 5px 5px 5px 6px;
+    width: 11px;
+    height: 15px;
+    background-position: -105px -7px;
+}
+
+.a-button-inner {
+    position: relative;
+    top: 114px;
+    padding: 6px;
+    height: auto;
+    border-radius: 7px;
+    background: white;
+    border: 1px solid #e7e7e7;
+    cursor: pointer;
+}
+
+.sp_truncated_badge {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.sp_truncated_badge_border {
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+}
+
+.sp_detail_sponsored_label {
+    color: #555555;
+    font-size: 11px;
+}
+
+.sp_detail_info_icon {
+    width: 11px;
+    vertical-align: text-bottom;
+    fill: #969696;
+}
+
+.sp_detail_sponsored_label:hover {
+    color: #111111;
+}
+
+.sp_detail_sponsored_label:hover .sp_detail_info_icon {
+    fill: #555555;
+}
+
+.best_seller_badge {
+    margin-right: 4px;
+    background-color: #c45500 !important;
+    line-height: 12px;
+    font-weight: 700;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.best_seller_badge:before {
+    border-bottom-color: #c45500 !important;
+}
+
+.best_seller_badge:after {
+    border-top-color: #c45500 !important;
+}
+
+.a-dynamic-image {
+    height: 160px;
+    width: 160px;
+}
+
+.a-icon-prime-span {
+    position: relative;
+    top: 2px;
+}
+
+.a-color-price {
+    color: #b12704;
+}
+
+.a-size-medium {
+    text-rendering: optimizeLegibility;
+}
+
+.a-size-medium {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.a-icon-prime {
+    background-image: url(https://m.media-amazon.com/images/S/sash/E6vgqiIirWgGb3f.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+
+    width: 53px;
+    height: 15px;
+    background-position: -185px -182px;
+    vertical-align: baseline;
+}
