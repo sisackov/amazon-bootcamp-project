@@ -420,6 +420,7 @@ body {
 .promo-section {
     display: flex;
     justify-content: center;
+    align-content: flex-start;
     margin-bottom: 22px;
 }
 
@@ -730,6 +731,10 @@ body {
     margin-top: -16px;
 }
 
+.cs__row-button .a-button-inner {
+    top: 114px;
+}
+
 .cs__card-container {
     margin: 0 40px;
     overflow: hidden;
@@ -759,4 +764,8 @@ body {
     display: inline-block;
     white-space: normal;
     letter-spacing: normal;
+}
+
+.cs__card div {
+    margin-bottom: 5px;
 }
