@@ -40,15 +40,31 @@ tr {
     vertical-align: top;
 }
 
-.a-icon.a-star-4-5 {
-    background-position: -84px -28px;
-}
-
 .a-icon-star {
     height: 18px;
     width: 80px;
     position: relative;
     vertical-align: text-top;
+}
+
+.a-icon.a-star-5 {
+    background-position: -166px -36px;
+}
+
+.a-icon.a-star-4-5 {
+    background-position: -84px -28px;
+}
+
+.a-icon.a-star-4 {
+    background-position: -84px -8px;
+}
+
+.a-icon.a-star-3 {
+    background-position: -84px -48px;
+}
+
+.a-icon.a-star-2-5 {
+    background-position: -99px -68px;
 }
 
 .a-icon-popover {
@@ -235,15 +251,8 @@ ul li {
     top: 2px;
 }
 
-.a-color-price {
+.a-card--price {
     color: #b12704;
-}
-
-.a-size-medium {
-    text-rendering: optimizeLegibility;
-}
-
-.a-size-medium {
     font-size: 18px;
     line-height: 24px;
 }

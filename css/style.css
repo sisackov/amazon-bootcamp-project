@@ -700,7 +700,7 @@ body {
 
 .cs__header--heading {
     align-self: flex-end;
-    flex-basis: 95%;
+    flex-basis: 91%;
     color: #c60;
     font-size: 16px;
     font-family: verdana, arial, helvetica, sans-serif;
@@ -708,6 +708,7 @@ body {
 
 .cs__header-page-count {
     font-size: 24px;
+    font-family: 600;
 }
 
 .cs__row {
