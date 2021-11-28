@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 :root {
-    --page-size: 100vh;
-    --color-bluebeacon: #232f3e;
+    --color-bluebeacon: var(--color-bluebeacon);
     --color-nav-top: #131921;
 }
 
@@ -16,8 +14,6 @@ html {
 }
 
 body {
-    background: #f4f4f4;
-
     font-size: 14px;
     line-height: 20px;
     font-family: Arial, sans-serif;
@@ -309,7 +305,7 @@ body {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background: #232f3e;
+    background: var(--color-bluebeacon);
     color: white;
     z-index: 1;
     padding: 1rem;
@@ -537,8 +533,8 @@ body {
 
 .ac-container--rectangle {
     height: 22px;
-    background-color: #232f3e;
-    border-color: #232f3e;
+    background-color: var(--color-bluebeacon);
+    border-color: var(--color-bluebeacon);
     display: flex;
     min-width: 80px;
     float: left;
@@ -549,7 +545,7 @@ body {
     height: 0;
     border-right: 10px solid transparent;
     border-top: 22px solid;
-    color: #232f3e;
+    color: var(--color-bluebeacon);
     float: left;
 }
 
